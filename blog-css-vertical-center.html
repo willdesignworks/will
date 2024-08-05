@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+  <title>Will - CSS 5種文字垂直居中</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="author" content="beshleyua" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CSorts+Mill+Goudy&#038;display=swap" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto" type="text/css" media="all" />
+
+  <!-- CSS STYLES -->
+  <link rel="stylesheet" href="assets/css/vendors/bootstrap.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/splitting.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/swiper.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/animate.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all" />
+
+  <!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body class="page light-skin">
+	<div class="container-page ">
+
+    <!-- Preloader -->
+    <div class="preloader">
+		<div class="centrize full-width">
+		  <div class="vertical-center">
+			<div class="spinner-logo">
+			  <img src="assets/images/ober_logo.png" alt="" />
+			  <div class="spinner-dot"></div>
+			  <div class="spinner spinner-line"></div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+  
+	  <!-- Header -->
+	  <header class="header">
+		<div class="header__builder">
+		  <div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+  
+			  <!-- logo -->
+			  <div class="logo">
+				<a href="index.html">
+				  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 21H5C4.44772 21 4 20.5523 4 20V11L1 11L11.3273 1.6115C11.7087 1.26475 12.2913 1.26475 12.6727 1.6115L23 11L20 11V20C20 20.5523 19.5523 21 19 21ZM13 19H18V9.15745L12 3.7029L6 9.15745V19H11V13H13V19Z"></path></svg>
+				</a>
+			  </div>
+  
+			</div>
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 align-right">
+  
+			  <!-- switcher btn -->
+			  <a href="#" class="switcher-btn">
+				<span class="sw-before">
+				  <svg xmlns="http://www.w3.org/2000/svg" width="22.22" height="22.313" viewBox="0 0 22.22 22.313">
+					<path fill="#fff" d="M1752.49,105.511a5.589,5.589,0,0,0-3.94-1.655,5.466,5.466,0,0,0-3.94,1.655,5.61,5.61,0,0,0,3.94,9.566,5.473,5.473,0,0,0,3.94-1.653,5.643,5.643,0,0,0,1.65-3.957A5.516,5.516,0,0,0,1752.49,105.511Zm-1.06,6.85a4.1,4.1,0,0,1-5.76,0,4.164,4.164,0,0,1,0-5.788A4.083,4.083,0,0,1,1751.43,112.361Zm7.47-3.662h-2.27a0.768,0.768,0,0,0,0,1.536h2.27A0.768,0.768,0,0,0,1758.9,108.7Zm-10.35,8.12a0.777,0.777,0,0,0-.76.769v2.274a0.777,0.777,0,0,0,.76.767,0.786,0.786,0,0,0,.77-0.767v-2.274A0.786,0.786,0,0,0,1748.55,116.819Zm7.85-.531-1.62-1.624a0.745,0.745,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.625a0.747,0.747,0,0,0,1.06,0A0.759,0.759,0,0,0,1756.4,116.288ZM1748.55,98.3a0.777,0.777,0,0,0-.76.768v2.273a0.778,0.778,0,0,0,.76.768,0.787,0.787,0,0,0,.77-0.768V99.073A0.786,0.786,0,0,0,1748.55,98.3Zm7.88,3.278a0.744,0.744,0,0,0-1.06,0l-1.62,1.624a0.758,0.758,0,0,0,0,1.063,0.745,0.745,0,0,0,1.06,0l1.62-1.624A0.758,0.758,0,0,0,1756.43,101.583Zm-15.96,7.116h-2.26a0.78,0.78,0,0,0-.77.768,0.76,0.76,0,0,0,.77.768h2.26A0.768,0.768,0,0,0,1740.47,108.7Zm2.88,5.965a0.745,0.745,0,0,0-1.06,0l-1.62,1.624a0.759,0.759,0,0,0,0,1.064,0.747,0.747,0,0,0,1.06,0l1.62-1.625A0.758,0.758,0,0,0,1743.35,114.664Zm0-11.457-1.62-1.624a0.744,0.744,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.624a0.745,0.745,0,0,0,1.06,0A0.758,0.758,0,0,0,1743.35,103.207Z" transform="translate(-1737.44 -98.313)"/>
+				  </svg>
+				</span>
+				<span class="sw-after">
+				  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+					<path fill="#fff" d="M1759.46,111.076a0.819,0.819,0,0,0-.68.147,8.553,8.553,0,0,1-2.62,1.537,8.167,8.167,0,0,1-2.96.531,8.655,8.655,0,0,1-8.65-8.682,9.247,9.247,0,0,1,.47-2.864,8.038,8.038,0,0,1,1.42-2.54,0.764,0.764,0,0,0-.12-1.063,0.813,0.813,0,0,0-.68-0.148,11.856,11.856,0,0,0-6.23,4.193,11.724,11.724,0,0,0,1,15.387,11.63,11.63,0,0,0,19.55-5.553A0.707,0.707,0,0,0,1759.46,111.076Zm-4.5,6.172a10.137,10.137,0,0,1-14.29-14.145,10.245,10.245,0,0,1,3.38-2.836c-0.14.327-.29,0.651-0.41,1.006a9.908,9.908,0,0,0-.56,3.365,10.162,10.162,0,0,0,10.15,10.189,9.776,9.776,0,0,0,3.49-.62,11.659,11.659,0,0,0,1.12-.473A10.858,10.858,0,0,1,1754.96,117.248Z" transform="translate(-1737 -98)"/>
+				  </svg>
+				</span>
+			  </a>
+  
+			  <!-- menu btn -->
+			  <a href="#" class="menu-btn"><span></span></a>
+  
+			</div>
+		  </div>
+		</div>
+  
+		<!-- Menu Full Overlay -->
+		<div class="menu-full-overlay">
+		  <div class="menu-full-container">
+			<div class="container">
+			  <div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+  
+				  <!-- menu full -->
+				  <div class="menu-full">
+					<ul class="menu-full">
+					  <li class="menu-item">
+						<a class="splitting-text-anim-2" data-splitting="chars" href="#about-section">About<span class="sub-title">簡介</span></a>
+					  </li>
+					  <li class="menu-item">
+						<a class="splitting-text-anim-2" data-splitting="chars" href="#resume-section">Resume<span class="sub-title">履歷</span></a>
+					  </li>
+					  <li class="menu-item">
+						<a class="splitting-text-anim-2" data-splitting="chars" href="works.html">Projects<span class="sub-title">專案經歷</span></a>
+					  </li>
+					  <li class="menu-item">
+						<a class="splitting-text-anim-2" data-splitting="chars" href="blog.html">Blog<span class="sub-title">紀錄一些語法筆記</span></a>
+					  </li>
+					</ul>
+				  </div>
+  
+				</div>
+			  </div>
+			</div>
+		  </div>
+  
+		  <!-- social 
+		  <div class="menu-social-links">
+			<a href="http://dribbble.com" target="blank" class="scrolla-element-anim-1" title="dribbble">
+			  <i class="fab fa-dribbble"></i>
+			</a>
+			<a href="http://twitter.com" target="blank" class="scrolla-element-anim-1" title="twitter">
+			  <i class="fab fa-twitter"></i>
+			</a>
+			<a href="http://behance.com" target="blank" class="scrolla-element-anim-1" title="behance">
+			  <i class="fab fa-behance"></i>
+			</a>
+		  </div>-->
+  
+		</div>
+  
+	  </header>
+
+		<!-- Wrapper -->
+		<div class="wrapper single-post">
+
+      <!-- Section Started Heading -->
+      <section class="section section-inner started-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+              <!-- titles -->
+              <div class="m-titles">
+                <h1 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  CSS 5種文字垂直居中
+                </h1>
+                <div class="m-category scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <a href="#" rel="category tag">css</a> / November 27, 2023
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Single Post -->
+      <section class="section section-inner m-archive">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+
+              <!-- content -->
+              <div class="description">
+                <div class="post-content scrolla-element-anim-1 scroll-animate" data-animate="active">
+				<p>垂直置中一直是網頁設計師的痛，早期解決方法沒有那麼多，最常見到的就是height = line-height這種方式，可是這方式彈性很低，如果遇到多行文字就無法使用。然而隨著CSS的演進，越來越多種垂直置中的方法，這邊就介紹幾種實用性高的垂直置中方法。</p>
+<div style="width: 100%">
+	<!------------------------------標題------------------------------>
+	<span class="tags-links">
+                    <span>Tags:</span>
+		<a href="#text1">文字垂直置中「line-height」</a>
+		<a href="#text2">文字垂直置中「display: table-cell 」</a>
+		<a href="#text3">文字垂直置中「display:flex 」</a>
+		<a href="#text4">文字垂直置中「transform: translateY(-50%) 」</a>
+		<a href="#text5">文字垂直置中「top:calc 」</a>
+	</span>
+	<!------------------------------解釋------------------------------>
+	<h2 id="text1">．line-height 文字垂直置中</h2>
+	<!--呈現-->
+	<div class="css_result">
+		<!--line-height單行-->
+		<div class="line-height" style="width: 300px;height: 150px;background: #ccc;line-height: 150px;text-align: center;">
+			line-height 文字垂直置中
+		</div>
+		<div class="html_form">
+			<p>line-height,單行</p>
+			<span class="css_txt_con">&lt;style&gt;</span><br>
+				.line-height&emsp;{<br>
+				&emsp;&emsp;hwidth: 300px;<br>
+				&emsp;&emsp;height:150px;<br>
+				&emsp;&emsp;line-height:150px;<br>
+				&emsp;&emsp;text-align: center;<br>
+				}<br>
+			<span class="css_txt_con">&lt;/style&gt;</span><br><br>
+			
+			&lt;div class="line-height"&gt;<br>
+			&emsp;<span class="css_txt_con3">line-height 文字垂直置中</span><br>
+			&lt;/div&gt;
+		</div>
+	</div>
+	
+	<!------------------------------解釋------------------------------>
+	<h2 id="text2">．display: table-cell 垂直置中方式</h2>
+	<div class="css_txt">
+		<p>
+			<span class="css_txt_con">display:</span>
+			<span class="css_txt_con2">table;</span>
+			<span class="css_txt_con3">/*最外圍要一個div包起來*/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">text-align:</span>
+			<span class="css_txt_con2">center;</span>
+			<span class="css_txt_con3">/*文字水平對齊*/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">vertical-align:</span>
+			<span class="css_txt_con2">middle;</span>
+			<span class="css_txt_con3">/*利用支援儲存格垂直置中*/</span>
+		</p>
+		<h4>table,margin失效</h4>
+		<p>
+			<span class="css_txt_con">display:</span>
+			<span class="css_txt_con2">table;</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">border-collapse:</span>
+			<span class="css_txt_con2">separate;</span>
+			<span class="css_txt_con3">/*邊框彼此間分開*/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">border-spacing:</span>
+			<span class="css_txt_con2">5px;</span>
+			<span class="css_txt_con3">/*邊框之間的距離*/</span>
+		</p>
+		<h4>table,限制每隔寬度</h4>
+		<p>
+			<span class="css_txt_con">display:</span>
+			<span class="css_txt_con2">table;</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">table-layout:</span>
+			<span class="css_txt_con2">auto;</span>
+			<span class="css_txt_con3">/*自動寬度*/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">table-layout:</span>
+			<span class="css_txt_con2">fixed;</span>
+			<span class="css_txt_con3">/*全部等寬*/</span>
+		</p>
+	</div>
+	<!--呈現-->
+	<div class="css_result">
+		<!--display: table-cell 垂直置中方式-->
+		<div style="background: #ccc;display: table;text-align: center;">
+			<span style="width: 300px;height: 150px;display: table-cell;vertical-align: middle;">使用表格或假裝表格<br>css display: table-cell 垂直置中方式</span>
+		</div>
+		<div class="html_form">
+			<p>display: table-cell 垂直置中方式-</p>
+			<span class="css_txt_con">&lt;style&gt;</span><br>
+				.table-cell&emsp;{<br>
+				&emsp;&emsp;display: table;<br>
+				&emsp;&emsp;text-align: center;<br>
+				}<br>
+				.table-cell .in&emsp;{<br>
+				&emsp;&emsp;width: 300px;<br>
+				&emsp;&emsp;height:150px;<br>
+				&emsp;&emsp;display: table-cell;<br>
+				}<br>
+			<span class="css_txt_con">&lt;/style&gt;</span><br><br>
+			
+			&lt;div class="table-cell"&gt;<br>
+			&emsp;&lt;span class="in"&gt;<br>
+			&emsp;<span class="css_txt_con3">使用表格或假裝表格<br>css display: table-cell 垂直置中方式</span><br>
+			&emsp;&lt;/span&gt;<br>
+			&lt;/div&gt;
+		</div>
+	</div>
+
+	<!------------------------------解釋------------------------------>
+	<h2 id="text3">．css3 display:flex 垂直置中方式</h2>
+	<div class="css_txt">
+		<p>
+			<span class="css_txt_con">display:</span>
+			<span class="css_txt_con2"> flex;</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">align-items:</span>
+			<span class="css_txt_con2"> center;</span>
+			<span class="css_txt_con3">/*垂直置中*/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">justify-content:</span>
+			<span class="css_txt_con2">center;</span>
+			<span class="css_txt_con3">/*水平置中*/</span>
+		</p>
+	</div>
+	<!--呈現-->
+	<div class="css_result">
+		<!--css3 display:flex 垂直置中方式-->
+		<div style="width: 300px;background: #ccc;height: 300px;display:flex;align-items:center;justify-content:center;">
+			<span>css3 display:flex</span>
+		</div>
+		<div class="html_form">
+			<p>display: table-cell 垂直置中方式</p>
+			<span class="css_txt_con">&lt;style&gt;</span><br>
+				.flex&emsp;{<br>
+				&emsp;&emsp;width: 300px;<br>
+				&emsp;&emsp;height:300px;<br>
+				&emsp;&emsp;display:flex;<br>
+				&emsp;&emsp;align-items:center;<br>
+				&emsp;&emsp;justify-content:center;<br>
+				}<br>
+			<span class="css_txt_con">&lt;/style&gt;</span><br><br>
+			
+			&lt;div class="flex"&gt;<br>
+			&emsp;<span class="css_txt_con3">css3 display:flex</span><br>
+			&lt;/div&gt;
+		</div>
+	</div>
+	
+	<!------------------------------解釋------------------------------>
+	<h2 id="text4">．translateY 垂直置中方式</h2>
+	<div class="css_txt">
+		<p>
+			<span class="css_txt_con">position:</span>
+			<span class="css_txt_con2"> relative;</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">top:</span>
+			<span class="css_txt_con2"> 50%;</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">transform:</span>
+			<span class="css_txt_con2"> translateY(-50%);</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+	</div>
+	<!--呈現-->
+	<div class="css_result">
+		<!--display: table-cell 垂直置中方式-->
+		<div style="width: 300px;background: #ccc;height: 300px;position: relative;">
+			<span style="position: absolute;top: 50%;transform: translateY(-50%);">css3 translateY多行文字的垂直置中技巧Top: 50% 的招式，讓你的物件上方能產生固定％數的距離由於 translate的百分比單位是利用物件自身的尺寸作為 100% ，這樣讓我們要利用物件自身寬高</span>
+		</div>
+		<div class="html_form">
+			<p>display: table-cell 垂直置中方式</p>
+			<span class="css_txt_con">&lt;style&gt;</span><br>
+				.table-cell&emsp;{<br>
+				&emsp;&emsp;width: 300px;<br>
+				&emsp;&emsp;height:300px;<br>
+				&emsp;&emsp;position: relative;<br>
+				}<br>
+				.table-cell .in&emsp;{<br>
+				&emsp;&emsp;position: absolute;<br>
+				&emsp;&emsp;top: 50%;<br>
+				&emsp;&emsp;transform: translateY(-50%);<br>
+				}<br>
+			<span class="css_txt_con">&lt;/style&gt;</span><br><br>
+			
+			&lt;div class="table-cell"&gt;<br>
+			&emsp;&lt;span class="in"&gt;<br>
+			&emsp;<span class="css_txt_con3">css3 translateY多行文字的垂直置中技巧Top: 50% 的招式，讓你的物件上方能產生固定％數的距離由於 translate的百分比單位是利用物件自身的尺寸作為 100% ，這樣讓我們要利用物件自身寬高</span><br>
+			&emsp;&lt;/span&gt;<br>
+			&lt;/div&gt;
+		</div>
+	</div>
+	
+	<!------------------------------解釋------------------------------>
+	<h2 id="text5">．css3 calc 垂直置中方式</h2>
+	<div class="css_txt">
+		<p>
+			<span class="css_txt_con">position:</span>
+			<span class="css_txt_con2"> relative;</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+		<p>
+			<span class="css_txt_con">top:</span>
+			<span class="css_txt_con2"> calc((100% - 150px) / 2);</span>
+			<span class="css_txt_con3">/**/</span>
+		</p>
+	</div>
+	<!--呈現-->
+	<div class="css_result">
+		<!--css3 calc 垂直置中方式-->
+		<div style="width: 300px;background: #ccc;height: 300px;">
+			<span style="position: relative;top: calc((100% - 150px) / 2);">css3 calc多行文字的垂直置中技巧利用 calc() 這個「計算機」方法，來將百分比即時且動態的計算出實際要的什麼高度但這個方法需要注意的是太過大量的使用的話，網頁效能會是比較差</span>
+		</div>
+		<div class="html_form">
+			<p>css3 calc 垂直置中方式</p>
+			<span class="css_txt_con">&lt;style&gt;</span><br>
+				.calc&emsp;{<br>
+				&emsp;&emsp;width: 300px;<br>
+				&emsp;&emsp;height:300px;<br>
+				&emsp;&emsp;position: relative;<br>
+				&emsp;&emsp;top: calc((100% - 150px) / 2);<br>
+				}<br>
+			<span class="css_txt_con">&lt;/style&gt;</span><br><br>
+			
+			&lt;div class="calc"&gt;<br>
+			&emsp;<span class="css_txt_con3">css3 calc多行文字的垂直置中技巧利用 calc() 這個「計算機」方法，來將百分比即時且動態的計算出實際要的什麼高度但這個方法需要注意的是太過大量的使用的話，網頁效能會是比較差</span><br>
+			&lt;/div&gt;
+		</div>
+	</div>
+	
+<ul><!---- 參考 ---->
+	<li>參考</li>
+	<li><a href="https://medium.com/%E7%8B%97%E5%A5%B4%E5%B7%A5%E7%A8%8B%E5%B8%AB/css-flexbox-%E4%BC%B8%E7%B8%AE%E8%87%AA%E5%A6%82%E7%9A%84%E6%8E%92%E7%89%88-%E5%9F%BA%E7%A4%8E%E8%A7%80%E5%BF%B5-85ffe3ae44b3">CSS Flexbox — 伸縮自如的排版|基礎觀念</a></li>
+	<li><a href="https://www.oxxostudio.tw/articles/201501/css-flexbox.html">深入解析 CSS Flexbox</a></li>
+	<li><a href="https://wcc723.github.io/css/2017/07/21/css-flex/">圖解：CSS Flex 屬性一點也不難</a></li>
+</ul>
+</div>
+	
+<!--GO-TOP-->
+<div class="button_gotop"><a href="#">TOP<span></span></a></div>
+				  
+                </div>
+              </div><!-- /-end-content -->
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+		</div>
+
+		<!-- Footer -->
+		<div class="footer">
+			<div class="footer__builder">
+			  <div class="container">
+				<div class="row">
+				  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center">
+					<div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active">© 2024 Ober. All Rights Reserved</div>
+					<div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active">Developed by <strong>will</strong></div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+	</div>
+
+	<!-- cursor -->
+	<div class="cursor"></div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/swiper.js"></script>
+  <script src="assets/js/splitting.js"></script>
+  <script src="assets/js/jarallax.min.js"></script>
+  <script src="assets/js/magnific-popup.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.js"></script>
+  <script src="assets/js/isotope.pkgd.js"></script>
+  <script src="assets/js/jquery.scrolla.js"></script>
+  <script src="assets/js/skrollr.js"></script>
+  <script src="assets/js/jquery.cookie.js"></script>
+  <script src="assets/js/common.js"></script>
+
+</body>
+</html>
