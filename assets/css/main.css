@@ -2018,6 +2018,11 @@ page.footer {
     margin-top: -75px;
 }
 
+.h-titles a .next-annotation {
+    color: #91959b;
+	font-size: 18px;
+}
+
 .section.section-inner {
 	padding: 0;
 	background: #181e27;
