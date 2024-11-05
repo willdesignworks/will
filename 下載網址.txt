@@ -1,0 +1,61 @@
+﻿/*============================================================================= 
+****--bybslthemes_
+===============================================================================*/
+
+https://elements.envato.com/user/bslthemes/web-templates
+
+OBER - Personal Portfolio React Template
+https://elements.envato.com/ober-personal-portfolio-react-template-T8L9TUX
+OBER - CV Resume Personal Portfolio Hugo Theme
+https://elements.envato.com/ober-cv-resume-personal-portfolio-hugo-theme-LCNHSFW
+OBER - CV Resume Personal Portfolio Jekyll Theme
+https://elements.envato.com/ober-cv-resume-personal-portfolio-jekyll-theme-JH66CYJ
+OBER - Personal Portfolio Template
+https://elements.envato.com/ober-personal-portfolio-template-DPCCJUZ
+
+/*=============================================================================
+------------------------------------------------------------------投履歷文案
+===============================================================================*/
+作品集連結
+https://willdesignworks.github.io/will/
+
+React useState,useEffect應用
+https://willdesignworks.github.io/will/work-react.html
+
+我的名字是Will 徐尉庭。自 2012 年 6 月以來一直在學習網頁程式碼。
+擁有豐富的前端開發經驗，專注於創建現代化、直觀且具有良好用戶體驗的網頁。
+希望能有參加面試的機會，謝謝！
+
+
+您好，我叫徐尉庭，近日得知貴公司在徵人，希望能有參加面試的機會，謝謝！
+
+
+/*=============================================================================
+------------------------------------------------------------------網頁伺服器
+===============================================================================*/
+
+GitHub
+https://github.com/
+
+GitHub 可以交流程式的平台，它提供你一個空間來存放程式碼，這個空間是基於 Git 的**版本控制系統，
+**你能夠透過系統共同編輯平台上的程式專案，而這個系統是開放資源，也就是說全世界的人都可以找到你的 GitHub code，
+包括使用它、從中學習並將它改得更好。GitHub 提供一個非常實用的工具— GitHub Pages，它能讓你發佈網站。
+
+Google App Engine
+https://cloud.google.com/appengine/
+
+Google App Engine 是一個強大的平台，不管是要從頭建置 multi-tiered web 程式還是託管靜態網站，
+它都能讓你在 Google 的基礎下建置和運行應用程式。點選 How do you host your website on Google App Engine? 以獲得更多資訊。
+
+
+使用 GitHub Pages 架設個人網站
+
+https://hackmd.io/@flagmaker/BkvQphP65
+
+https://<username>.github.io/my-website-1/
+
+https://willdesignworks.github.io/will/
+https://willdesignworks.github.io/react-uber/
+
+willbqool@gmail.com
+z22490253will
